@@ -20,7 +20,12 @@ public class Ejecutable02 {
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
-        
+        /*
+        Lo que realiza el system es que se esperan tres valores diferentes donde 
+        en h1.establecerNombre se esperaria obtener una cadena y asi imprimirla, en 
+        h2.establecerNombre se esperaria ontener un entero y en h3.establecerNombre
+        un valor float. 
+        */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
         /*
