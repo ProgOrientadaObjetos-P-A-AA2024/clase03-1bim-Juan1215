@@ -39,9 +39,13 @@ public class Ejecutor {
         System.out.printf("Factura de Teléfono\n\n"
                 + "Nombre y Apellidos: %s\n"
                 + "Número de teléfono: %s\n"
-                + "Minutos mensuales: %.2f\nValor por minuto: %.2f\n"
-                + "Valor a cancelar: %.2f\n", ft.obtenerNomApellidos(),ft.obtenerNumeroTelefono(),
-                ft.obtenerMinutosMes(), ft.obtenerValorMinuto(),
+                + "Minutos mensuales: %.2f\n"
+                + "Valor por minuto: %.2f\n"
+                + "Valor a cancelar: %.2f\n", 
+                ft.obtenerNomApellidos(),
+                ft.obtenerNumeroTelefono(),
+                ft.obtenerMinutosMes(), 
+                ft.obtenerValorMinuto(),
                 ft.obtenerValorFactura());
     }
 }

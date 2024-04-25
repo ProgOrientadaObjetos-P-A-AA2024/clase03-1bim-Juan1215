@@ -35,6 +35,8 @@ public class FacturaTelefono {
     }
     
     // public void establecerValorFactura(){
+    //Este metodo nos sirve para poder hacer el calculo y obtener el resultado 
+    //del valor de la factura
     public void calcularValorFactura(){
         valorFactura = minutosMes * valorMinuto;
     }
